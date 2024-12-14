@@ -3686,6 +3686,10 @@ button.DialogButton.Primary:hover, button.DialogButton.Primary.gpfocus {
 /* [class*="menu_MenuWrapper_"][class*="menu_MenuOpen_"] */
 ._2Lu3d-5qLmW4i19ysTt2jT._3rgV8pPmQvZC-01x9l-q-N {
     background: rgb(var(--white05));
+    z-index: -1; /*truc z cua muc "community"  -1 0 1 2 3 bi an xuong muc nhin thay duoc*/
+    position: fixed; /*vi tri cua "commnity" giu nguyen*/
+    width: 0px; /*chieu rong cua "community" = 0 */
+
 }
 
 /* [class*="notificationssettings_NotificationSection_"] button.DialogButton:hover */
